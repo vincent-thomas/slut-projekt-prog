@@ -1,4 +1,21 @@
 require_relative "./sort_of_name"
+# Beskrivning: Denna funktion ber användaren att ange sitt namn och returnerar det.
+# Argument : - Ingen -
+# Return: String - Namnet på spelaren.
+# Exempel: 
+#   Exempel 1:
+#     puts get_player()
+#     # Enter your name
+#     # (användarens input)
+#     # => "Alice"
+#   Exempel 2:
+#     puts get_player()
+#     # Enter your name
+#     # (användarens input)
+#     # => "Bob"
+#
+# By: Anton Angervall & Vincent Thomas
+# Date: 05-05-2024
 
 def get_player()
   puts "Enter your name"
@@ -12,6 +29,23 @@ def get_player()
   return player_name
 end
 
+# Beskrivning: Denna funktion ber användaren att ange en tid och returnerar den.
+# Argument : - Ingen -
+# Return: Float - Spelartiden.
+# Exempel: 
+#   Exempel 1:
+#     puts get_time()
+#     # Enter a time , for example 3.0
+#     # (användarens input)
+#     # => 3.0
+#   Exempel 2:
+#     puts get_time()
+#     # Enter a time , for example 3.0
+#     # (användarens input)
+#     # => 4.5
+#
+# By: Anton Angervall & Vincent Thomas
+# Date: 05-06-2024
 def get_time()
   puts "Enter a time , for example 3.0"
     player_time = gets.chomp.to_f
