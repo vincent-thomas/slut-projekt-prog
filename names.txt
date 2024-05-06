@@ -1,7 +1,7 @@
+2.4=aungen
 0.0=aungen
-0.5=fincent
-1.0=velle
 1.2=ccell
 2.0=dely
+0.5=fincent
 4.2=gell
-2.4=aungen
+1.0=velle
