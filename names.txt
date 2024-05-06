@@ -1,7 +1,6 @@
-2.4=aungen
-0.0=aungen
-1.2=ccell
-2.0=dely
-0.5=fincent
-4.2=gell
-1.0=velle
+5.0=anton
+6.0=bob
+8.0=bob2
+5.5=lasse
+7.0=person
+4.0=vincent

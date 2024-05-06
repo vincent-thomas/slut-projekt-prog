@@ -119,7 +119,6 @@ def put_player_time(player_name, tid)
     break
   end
   
-  p file
   file_to_print = file.join("\n")
   File.write("players.txt", file_to_print)
 end

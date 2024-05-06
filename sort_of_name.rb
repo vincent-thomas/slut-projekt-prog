@@ -23,11 +23,13 @@ def file_name(names)
   index = 0 
 
   while index < names.length
-    p names[index]
     string += names[index] + "\n"  
   index+= 1    
   end
  
+
+  File.write("names.txt", "")
+
   File.open('names.txt', 'a') do |fa|
     fa.write(string)
   end
