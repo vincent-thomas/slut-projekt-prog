@@ -40,7 +40,7 @@ def get_time()
 #   - put_player_time("john", 20)
 #   - put_player_time("mary", 26)
 #   - put_player_time("ange", 30)
-# By: Vincent Thomas
+# By: Vincent Thomas & Anton Angervall
 # Date: 2024-04-29
 
 def put_player_time(player_name, tid)
